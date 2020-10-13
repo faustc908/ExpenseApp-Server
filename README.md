@@ -10,10 +10,10 @@ Link to live app: https://expense-app-client.vercel.app/
 
 API endpoints for the back end include:
 
-    POST to '/recipe' to add a user recipe to the database
-    PUT to '/recipe' to update a recipe you already submitted
-    GET to '/recipe' to get all of the recipes stored
-    DELETE to '/recipe' to delete unwanted recipes from database
+    POST to '/expense' to add a user note to the database
+    PUT to '/expense' to update a note you already submitted
+    GET to '/expense' to get all of the notes stored
+    DELETE to '/expense' to delete unwanted notes from database
 
 Front end:
 React.js/CSS3/HTML5/Jest/Enzyme
