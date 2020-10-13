@@ -6,7 +6,7 @@ Link to client repository - https://github.com/faustc908/ExpenseApp-Client
 
 Link to live app: https://expense-app-client.vercel.app/
 
-[![GoodEats.png](https://i.postimg.cc/xd0mLvQJ/GoodEats.png)](https://postimg.cc/mP5hsFtB)
+[![Untitled.png](https://i.postimg.cc/Vk5BFZ3h/Untitled.png)](https://postimg.cc/18hqmBR0)
 
 API endpoints for the back end include:
 
