@@ -26,7 +26,7 @@ app.get("/", function (req, res) {
     res.end();
 });
 
-//  Post expense
+//  Post expense - description is req body
 
 app.post("/expense", async (req, res) => {
     try {
@@ -54,7 +54,7 @@ app.get("/expense", async (req, res) => {
     }
 });
 
-// Get a expense by ID
+// Get a expense by ID - id req param
 
 app.get("/expense/:id", async (req, res) => {
     try {
@@ -71,7 +71,7 @@ app.get("/expense/:id", async (req, res) => {
     }
 });
 
-// Delete a expense
+// Delete a expense - id req param
 
 app.delete("/expense/:id", async (req, res) => {
     try {
@@ -87,7 +87,7 @@ app.delete("/expense/:id", async (req, res) => {
     }
 });
 
-// Update a Expense
+// Update a Expense - id, description required params
 
 app.put("/expense/:id/:description", async (req, res) => {
     try {
